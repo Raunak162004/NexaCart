@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <footer className='border-t py-12'>
-        <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4 lg:px-0'>
+        <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4 lg:px-8'>
             <div>
                 <h3 className='text-gray-800 text-lg mb-4'>NewsLetter</h3>
                 <p className='text-gray-500 mb-4'>Be the first to hear about new products, exclusive evens and online offers.</p>
