@@ -10,18 +10,18 @@ const GenderCollectionSection = () => {
             {/* womensCollection */}
             <div className='relative flex-1'>
                 <img className='w-full h-[700px] object-cover' src={womensCollectionImage} alt="Womens Collection" />
-                <div className='absolute bottom-8 left-8 bg-white bg-opacity-90 p-4'>
-                    <h2>Women's Collection</h2>
-                    <Link to='/collections/all?gender=women' className='underline text-gray-700 hover:text-black'>Shop Now</Link>
+                <div className='absolute bottom-8 left-8 bg-white bg-opacity-90 p-4 rounded-md'>
+                    <h2 className='tracking-tighter md:text-xl font-bold text-gray-900 mb-3'>Women's Collection</h2>
+                    <Link to='/collections/all?gender=women' className='tracking-tighter underline text-gray-700 hover:text-black'>Shop Now</Link>
                 </div>
             </div>
 
             {/* Mens Collection */}
             <div className='relative flex-1'>
                 <img className='w-full h-[700px] object-cover' src={mensCollectionImage} alt="Womens Collection" />
-                <div className='absolute bottom-8 left-8 bg-white bg-opacity-90 p-4'>
-                    <h2>Men's Collection</h2>
-                    <Link to='/collections/all?gender=men' className='underline text-gray-700 hover:text-black'>Shop Now</Link>
+                <div className='absolute bottom-8 left-8 bg-white bg-opacity-90 p-4 rounded-md'>
+                    <h2 className='tracking-tighter md:text-2xl font-bold text-gray-900 mb-3'>Men's Collection</h2>
+                    <Link to='/collections/all?gender=men' className='tracking-tighter underline text-gray-700 hover:text-black'>Shop Now</Link>
                 </div>
             </div>
         </div>
